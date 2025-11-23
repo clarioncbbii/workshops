@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+}
+
+header {
+  text-align: center;
+  background-color: yellow;
+  padding: 25px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+}
+
+image {
+  height: 300px;
+  width: 300px;
+  position: absolute;
+}
+
+.text {
+  position: relative;
+  top: 150px;
+  padding: 25px;
+}
+
+.image-birdie {
+  background: white;
+  height: 300px;
+  width: 500px;
+  position: relative;
+  top: 10rem;
+  left: 2rem;
+  z-index: 1;
+}
+
+.image-fiddle {
+  background: white;
+  height: 300px;
+  width: 500px;
+  position: relative;
+  top: 10rem;
+  left: 2rem;
+  z-index: -1;
+}
+
+h2 {
+  color: #f80c82;
+  font-size: 32px;
+  padding: 20px;
+  position: absolute;
+  top: 1em;
+  left: 1em;
+}
+
+.cookie-notice {
+  background: yellow;
+  padding: 10px;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+}
+
+button {
+  background-color: yellow;
+}

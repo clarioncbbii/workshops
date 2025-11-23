@@ -1,0 +1,22 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+img {
+  height: 300px;
+  width: auto;
+}
+
+.hero-image {
+  width: auto;
+  height: 100px;
+}
+
+?????????? why is this not working? */ .unordered-list {
+  font-style: italic;
+  list-style-type: square;
+  padding: 0px;
+  margin: 10px;
+}

@@ -1,0 +1,26 @@
+/* UNIVERSAL ELEMENT TO APPLY OUR DEFAULT STYLING*/
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(173, 240, 249, 0.514);
+}
+header {
+  border: solid 5px blue;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+nav {
+  border: solid 5px green;
+}
+main {
+  border: solid 5px yellow;
+}
+
+footer {
+  border: solid 5px red;
+}

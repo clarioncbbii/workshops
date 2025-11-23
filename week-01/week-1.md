@@ -18,5 +18,3 @@ If an IP address is as a building's address on a street, a port is a door number
 e.g. HTTPS (secure web browsing) is directed to Port 443.
 
 When you access a website, your computer uses the website's IP address to find the server, but the port number (like port 80) tells the server which service—in this case, the web server—to send the request to.
-
----
