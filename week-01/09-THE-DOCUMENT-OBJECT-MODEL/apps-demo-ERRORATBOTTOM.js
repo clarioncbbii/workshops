@@ -114,6 +114,6 @@ document.querySelector(".my-footerCLASS");
 //this element will not be on the DOM anymore
 heroImage.remove();
 
-
-?????? what am i doing wrong with the concat
-//document.body.getElementById(imgTitle).remove();
+//REVIEW BELOW;
+//imgTitle.remove();
+//console.log(imgTitle);
