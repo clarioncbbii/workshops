@@ -1,5 +1,4 @@
 # workshops
 
-all my workshops
+all my course workshops
 
-- end -
