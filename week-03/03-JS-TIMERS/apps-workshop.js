@@ -1,7 +1,6 @@
 console.log("HAWAIYU!");
 
-//
-//
+// ----------------------------------- //
 
 //TODO (1): As a user, when I click a button, a message should display for 5 seconds to confirm the action occurred, before disappearing again.
 
@@ -16,17 +15,15 @@ button1.addEventListener("click", function () {
   }, 5000);
 });
 
-//
-//
+// ----------------------------------- //
 
 //TODO (2): As a user, when I click a button, a message should display for 5 seconds to confirm the action occurred, before disappearing again.
 
-//
-//
+// ----------------------------------- //
 
-//THINK OF IT AS A COUNTER WITH SECONDS
+//TODO: THINK OF IT AS A COUNTER WITH SECONDS TICKING ALONG
+
 //If i press button 1, the counter starts from 1 to infinity
-//When i press another button, the counter ends
 
 const startButton = document.getElementById("start-button");
 
@@ -40,21 +37,14 @@ startButton.addEventListener("click", function () {
   }, 1000);
 });
 
-//
-//
+// ----------------------------------- // ???????????????????????????????
+
+//When I press another button, the counter ends
 
 const stopButton = document.getElementById("stop-button");
-stopButton.addEventListener (
-  "click"(){clearInterval()},
-  5000);;
-
-// ----------------------------------- //
-
-const rentReminder = setInterval(function () {
-  console.log("Oya, pay rent sha!");
-}, 2000);
+stopButton.addEventListener("click", clearInterval(), 5000);
 
 setTimeout(function () {
-  clearInterval(rentReminder);
+  clearInterval(stopButton);
   //clearInterval stops the interval
-}, 10000);
+}, 7000);

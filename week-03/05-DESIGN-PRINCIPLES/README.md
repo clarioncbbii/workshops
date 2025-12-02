@@ -4,29 +4,38 @@
 
 # ESSENTIALS
 
-- Type of Site
+- Type of Site:
+  'Clicker game' site - a simple static game site for a user to play
+  I am thinking of making it a 'Kitty Klicker' game (each click = a pet)
 
-* 'Clicker game' site - a simple static game site
+- User Flow:
+  Single page which holds the game, the counter, the rewards; see wireframe
 
-- User Flow
-  Single page
+- Hierarchy:
+  Continue to be strict with my HTML structure; use semantic tags, and appropriate elements
 
-- Hierarchy
+- Consistency:
+  Pick special font for H1, H2-H# and general text font should all be the same font-family, variation in size between headers and text
 
-- Consistency
+- Balance:
+  Allow for white space on both sides of the viewport; simple footer (no background color perhaps) to keep things clean; align items using grid or flex to ensure it is not messy
 
-- Balance
-
-- Simplicity
+- Simplicity:
+  As previously outlined, I am approaching this game very pragmatically
+  Make it elegant, clean, simple but functional
 
 <!-- --- -->
 
 # EXTRAS
 
-- Contrast
+- Contrast:
+  I will implement a :hover pseudoclass to any buttons that require special attention; mostly use non-fill where possible
 
-- Imagery
+- Imagery:
+  Background image of the site will have to be central to the theme
 
-- Typography
+- Typography:
+  As per above
 
-- User Feedback
+- User Feedback:
+  Small feedback when user clicks, still thinking what that may look like - perhaps some text that says 'meow' with each pet (click)
