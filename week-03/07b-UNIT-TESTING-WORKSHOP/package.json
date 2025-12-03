@@ -1,0 +1,19 @@
+{
+  "name": "07b-unit-testing-workshop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "npx run app.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "vitest": "^4.0.15"
+  }
+}

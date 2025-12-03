@@ -1,0 +1,10 @@
+node_modules
+README.md
+
+- this file will contain the names of filer/folders you do NOT wish to push to GitHub
+- any secret files should be added e.g. passwords, tokens, keys, etc.
+
+# (!) The name of the folder/file above has to be EXACT
+
+You can check this has worked by seeing if the file/folder become 'grayed out' compared to its usual appearance. 
+

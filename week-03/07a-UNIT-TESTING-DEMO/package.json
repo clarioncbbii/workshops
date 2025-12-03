@@ -1,0 +1,17 @@
+{
+  "name": "07-unit-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "vitest",
+    "dev": "npm run app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "vitest": "^4.0.15",
+    "type": "module"
+  }
+}
