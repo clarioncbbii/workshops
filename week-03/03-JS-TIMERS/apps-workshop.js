@@ -35,6 +35,7 @@ startButton.addEventListener("click", function () {
   setInterval(function () {
     paragraph.textContent = `${count++}`;
   }, 1000);
+  return setInterval;
 });
 
 // ----------------------------------- // ???????????????????????????????
@@ -44,7 +45,6 @@ startButton.addEventListener("click", function () {
 const stopButton = document.getElementById("stop-button");
 stopButton.addEventListener("click", clearInterval(), 5000);
 
-setTimeout(function () {
-  clearInterval(stopButton);
-  //clearInterval stops the interval
-}, 7000);
+setTimeout(function (setInterval) {
+  clearInterval();
+}, 10000);
