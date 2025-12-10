@@ -31,4 +31,6 @@ app.get("/images", async (request, response) => {
 
 // ----------------- SUCCESS! --------------------- //
 
+//TODO: EXTRA
 /** If you choose at this point: TO RENDER IMAGE GO TO API FETCH WORKSHOP AND FOLLOW FLOW **/
+//documentation --> https://unsplash.com/documentation#search-photos
