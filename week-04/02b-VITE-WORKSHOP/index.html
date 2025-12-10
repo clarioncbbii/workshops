@@ -12,6 +12,7 @@
     />
 
     <link rel="stylesheet" href="./src/style.css" />
+    <!--  Note that now your JS files linked in Script tags will only load if the attribute type="module" is applied: <script src="./app.js" type="module"></script> -->
     <script type="module" src="./src/main.js" defer></script>
   </head>
   <body>
@@ -28,7 +29,7 @@
           <button id="image-button">
             <img
               id="cat-image"
-              src="../public/assets/kitty-image.png"
+              src="./assets/kitty-image.png"
               alt="Illustration of cute orange cat"
             />
           </button>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>USER INPUT AND POST</title>
+    <link rel="stylesheet" href="./src/styles.css" />
+    <script src="./src/app.js" type="module" defer></script>
+  </head>
+  <body>
+    <h1>USER INPUT</h1>
+
+    <!-- TODO: We need an element (form) to collect name, location, age, bio of staff -->
+    <form id="staff-form">
+      <label for="staffName">Staff name:</label>
+      <input type="text" name="staffName" required />
+
+      <label for="location">Location: </label>
+      <input type="text" name="location" required />
+
+      <label for="age">Age:</label>
+      <input type="number" name="age" required min="16" max="65" />
+
+      <label for="bio">Bio:</label>
+      <input type="text" name="bio" placeholder="optional" />
+
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
+
+<!-- the types in your html need to match the types you have in your database -->
+<!-- client, server and database operate holistically -->
