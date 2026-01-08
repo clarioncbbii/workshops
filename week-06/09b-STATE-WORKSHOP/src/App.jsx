@@ -1,12 +1,12 @@
 // import { useState } from "react";
 
 // * The useState hook looks like this:
-function App() {
-  const [myState, setMyState] = useState(0);
-  return <div>{myState}</div>;
-}
+// function App() {
+//   const [myState, setMyState] = useState(0);
+//   return <div>{myState}</div>;
+// }
 
-export default App
+// export default App
 
 //* The useState hook with a practical example:
 // function App() {
@@ -34,7 +34,7 @@ export default App
 // (2) Try adding a button that decreases the number on click
 // (3) Add an event listener that resets the number to 0 when you click the number itself
 
-// import { useState } from "react";
+// import { useState } from "react"; ????
 import ButtonPlus from "./components/ButtonPlus";
 import ButtonMinus from "./components/ButtonMinus";
 
