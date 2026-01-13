@@ -8,7 +8,7 @@ export default function StaffMember() {
   return (
     <>
       <h1>STAFF MEMBER</h1>
-      <p>{staffMember}</p>
+      <p>Name: {staffMember}</p>
     </>
   );
 }

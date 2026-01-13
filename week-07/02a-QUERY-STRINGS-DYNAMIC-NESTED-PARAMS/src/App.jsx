@@ -14,12 +14,14 @@ export default function App() {
       <Header />
       <h1>SPA and routing</h1>
       <h2>Subtitle</h2>
+
       {/* routing system */}
       <Routes>
         {/* static paths */}
         <Route element={<MainSection />} path={"/"} />
         <Route element={<About />} path={"/about"} />
         <Route element={<UserProfile />} path={"/profile/:userProfile"} />
+
         {/* example of a nested route - dynamic route nested in a static route */}
         {/* No "/" in nested routes - it does not like it! */}
         {/* we need to add a placeholder component to render --> outlet used in the parent of the component you want rendered*/}

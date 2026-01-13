@@ -3,7 +3,7 @@ import { Routes, Route, Link } from "react-router";
 import About from "./components/About";
 import Home from "./components/Home";
 import PageNotFound from "./components/PageNotFound";
-import Locations from "./components/Locations";
+import UserPage from "./components/UserPage";
 
 export default function App() {
   return (
@@ -12,15 +12,18 @@ export default function App() {
       <nav>
         <Link to={"/"}>Home</Link>
         <Link to={"/about"}>About</Link>
-        <Link to={"/locations"}>Locations</Link>
       </nav>
       {/* ROUTING SYSTEM */}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="*" element={<PageNotFound />} />
-        {/* dynamic route */}
-        <Route path="abouts/:locations" element={<Locations />} />
+
+        {/* dynamic route w/ nested routes */}
+        <Route path="users/:username" element={<UserPage />}>
+          <Route path="posts" element={<UserPostsPage />} />
+          <Route path="likes" element={<UserLikesPage />} />
+        </Route>
       </Routes>
     </>
   );
