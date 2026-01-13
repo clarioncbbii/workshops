@@ -4,6 +4,9 @@ import About from "./components/About";
 import Home from "./components/Home";
 import PageNotFound from "./components/PageNotFound";
 import UserPage from "./components/UserPage";
+import UserPostsPage from "./components/UserPostsPage";
+import UserLikesPage from "./components/UserLikesPage";
+import SortOrderForm from "./components/SortOrderForm";
 
 export default function App() {
   return (
@@ -20,7 +23,7 @@ export default function App() {
         <Route path="*" element={<PageNotFound />} />
 
         {/* dynamic route w/ nested routes */}
-        <Route path="users/:username" element={<UserPage />}>
+        <Route path="/users/:username" element={<UserPage />}>
           <Route path="posts" element={<UserPostsPage />} />
           <Route path="likes" element={<UserLikesPage />} />
         </Route>
