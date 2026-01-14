@@ -4,7 +4,7 @@ import express from "express";
 //instantiate our express app
 const app = express();
 
-//allow our server to
+//allow our server to use JSON
 app.use(express.json());
 
 //pretend we have a database (but we will just write some bird names in an array)
