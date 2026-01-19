@@ -1,6 +1,12 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
+//*for my header to show up across my whole app, this is where I import the component
+//the '@' is the import import alias - a simplified import - we can customise it if we want
+import Header from "@/components/Header";
+import Link from "next/link";
+
+
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -22,8 +28,13 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <Header />
+        {/* children is a keyword that represents the content of all our pages */}
+        {/* it's a placeholder */}
+        {/* this is why we nest header above 'children' */}
         {children}
       </body>
     </html>
   );
 }
+

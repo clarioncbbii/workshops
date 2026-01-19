@@ -27,3 +27,9 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
+
+//! NOTE:
+//this file is the bridge between our pages and the DOM
+//we create HTML, just not via a HTML file b/c we are in the server
+//we have a server that renders the HTML I need for the browser to generate
+//the children are all the pages that go with the app I am creating

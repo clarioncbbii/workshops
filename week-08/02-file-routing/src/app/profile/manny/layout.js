@@ -1,0 +1,1 @@
+// this is the layout (blueprint) for the profile page
