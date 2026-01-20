@@ -1,3 +1,5 @@
+//static route --> "/" (root route)
+
 export default function HomePage (){
 return (
   <>
