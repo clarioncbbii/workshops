@@ -13,7 +13,7 @@ export default  function NewRollercoasterPage (){
 
 //* FORMS IN NEXT.js:
 
-//* to handle the form submission --> a server function
+//* to handle the form submission --> a server function (P.S. server actions = server functions)
 //a server function is an async function that executes in the server specifically 
 async function handleSubmit (rawFormData){
 //the "use server" directive tells the function where we want it to execute (with this, we change the behaviour of this function)
@@ -67,7 +67,7 @@ return (
         <input type="text" name="country" maxLength={255} required />
         <label htmlFor="url">Image link: </label>
         <input
-          type="text"
+          type="url"
           name="url"
           required
           placeholder="copy and paste a url"
